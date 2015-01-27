@@ -1,0 +1,17 @@
+# change escape key 'a' to 't'
+escape ^o^o
+
+# change scrollback longer 100 to 1000
+defscrollback 1000
+
+# start message off
+startup_message off
+
+# vbell off
+vbell off
+
+caption always '%?%F%{= gW}%?%2n%f%07=%t%='
+hardstatus alwayslastline '%m/%d %02c:%s %{= .g}%H%{-} %L=%-w%45L>%{=u g.}%n %t%{-}%+w %-17<%=%{= .y}(%l)'
+
+# 256color
+term xterm-256color
