@@ -1,1 +1,1 @@
-syntax on
+/home/nbv/.vimrc
